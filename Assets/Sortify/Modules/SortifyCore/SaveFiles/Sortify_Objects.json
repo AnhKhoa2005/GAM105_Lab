@@ -1,0 +1,86 @@
+{
+    "objectsData": [
+        {
+            "colors": [
+                {
+                    "objID": "Lab_2_-------------Managers-------------_8",
+                    "colorValue": "FF0000FF"
+                },
+                {
+                    "objID": "Lab_2_-------------Environtments------------- _2",
+                    "colorValue": "0D9900FF"
+                },
+                {
+                    "objID": "Lab_2_----------------UI---------------- _11",
+                    "colorValue": "4CB5FFFF"
+                },
+                {
+                    "objID": "Lab_2_-------------Characters------------- _5",
+                    "colorValue": "A19613FF"
+                }
+            ],
+            "styles": [
+                {
+                    "objID": "Lab_2_-------------Managers-------------_8",
+                    "styleType": 1
+                },
+                {
+                    "objID": "Lab_2_-------------Environtments------------- _2",
+                    "styleType": 1
+                },
+                {
+                    "objID": "Lab_2_----------------UI---------------- _11",
+                    "styleType": 1
+                },
+                {
+                    "objID": "Lab_2_-------------Characters------------- _5",
+                    "styleType": 1
+                }
+            ],
+            "showComponents": [
+                {
+                    "objID": "Lab_2_-------------Environtments------------- _2",
+                    "show": true
+                }
+            ],
+            "sceneName": "Lab_2"
+        },
+        {
+            "colors": [
+                {
+                    "objID": "Lab_3_----ObstacleManager----_5",
+                    "colorValue": "401111FF"
+                },
+                {
+                    "objID": "Lab_3_----UIManager----_6",
+                    "colorValue": "009791FF"
+                }
+            ],
+            "styles": [
+                {
+                    "objID": "Lab_3_----ObstacleManager----_5",
+                    "styleType": 1
+                },
+                {
+                    "objID": "Lab_3_RespawnPoint_3",
+                    "styleType": 1
+                },
+                {
+                    "objID": "Lab_3_TargetPoint _4",
+                    "styleType": 1
+                },
+                {
+                    "objID": "Lab_3_----UIManager----_6",
+                    "styleType": 1
+                }
+            ],
+            "showComponents": [
+                {
+                    "objID": "Lab_3_----ObstacleManager----_5",
+                    "show": true
+                }
+            ],
+            "sceneName": "Lab_3"
+        }
+    ]
+}
