@@ -29,8 +29,8 @@ public class PlayerController_Lab3 : MonoBehaviour
     void Move()
     {
         if (isRespawning) return;
-        float xDir = Input.GetAxis("Horizontal");
-        float yDir = Input.GetAxis("Vertical");
+        float xDir = Input.GetAxisRaw("Horizontal");
+        float yDir = Input.GetAxisRaw("Vertical");
         Vector2 movement = new Vector2(xDir, yDir);
         transform.Translate(movement * speed * Time.deltaTime);
     }
@@ -41,6 +41,16 @@ public class PlayerController_Lab3 : MonoBehaviour
         {
             StartCoroutine(Respawn());
         }
+
+        if (other.CompareTag("TargetPoint"))
+        {
+            StartCoroutine(TargetPoint());
+        }
+
+        if (other.CompareTag("Coin"))
+        {
+            Destroy(other.gameObject);
+        }
     }
 
     IEnumerator Respawn()
@@ -49,10 +59,18 @@ public class PlayerController_Lab3 : MonoBehaviour
         isRespawning = true;
         GetComponent<Collider2D>().enabled = false;
         yield return new WaitForSeconds(1.5f);
+
         this.transform.position = RespawnPoint.position;
         yield return new WaitForSeconds(0.1f);
+
         ani.CrossFade("Player_Lab3", 0);
         isRespawning = false;
         GetComponent<Collider2D>().enabled = true;
+    }
+
+    IEnumerator TargetPoint()
+    {
+        yield return new WaitForSeconds(2f);
+        UIManager_Lab3.Ins.YouWinPanel();
     }
 }

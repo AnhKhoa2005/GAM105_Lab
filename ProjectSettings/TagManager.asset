@@ -16,6 +16,7 @@ TagManager:
   - wall
   - Obstacle
   - TargetPoint
+  - Coin
   layers:
   - Default
   - TransparentFX

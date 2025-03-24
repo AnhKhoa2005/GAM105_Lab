@@ -46,41 +46,111 @@
             "sceneName": "Lab_2"
         },
         {
+            "colors": [],
+            "styles": [],
+            "showComponents": [],
+            "sceneName": "Lab_1"
+        },
+        {
             "colors": [
                 {
-                    "objID": "Lab_3_----ObstacleManager----_5",
-                    "colorValue": "401111FF"
+                    "objID": "Lab_3_----Managers----_10",
+                    "colorValue": "FF0000FF"
                 },
                 {
-                    "objID": "Lab_3_----UIManager----_6",
-                    "colorValue": "009791FF"
+                    "objID": "Lab_3_----UI----_13",
+                    "colorValue": "00B4BAFF"
+                },
+                {
+                    "objID": "Lab_3_----Environment----_2",
+                    "colorValue": "1D9F08FF"
                 }
             ],
             "styles": [
                 {
-                    "objID": "Lab_3_----ObstacleManager----_5",
+                    "objID": "Lab_3_ObstacleManager_7",
+                    "styleType": 0
+                },
+                {
+                    "objID": "Lab_3_RespawnPoint_5",
                     "styleType": 1
                 },
                 {
-                    "objID": "Lab_3_RespawnPoint_3",
+                    "objID": "Lab_3_TargetPoint _6",
                     "styleType": 1
                 },
                 {
-                    "objID": "Lab_3_TargetPoint _4",
+                    "objID": "Lab_3_UIManager_11",
+                    "styleType": 0
+                },
+                {
+                    "objID": "Lab_3_----Managers----_10",
                     "styleType": 1
                 },
                 {
-                    "objID": "Lab_3_----UIManager----_6",
+                    "objID": "Lab_3_CoinManager_9",
+                    "styleType": 0
+                },
+                {
+                    "objID": "Lab_3_----UI----_13",
+                    "styleType": 1
+                },
+                {
+                    "objID": "Lab_3_SpawnObstaclePoint_8",
+                    "styleType": 0
+                },
+                {
+                    "objID": "Lab_3_----Environment----_2",
                     "styleType": 1
                 }
             ],
             "showComponents": [
                 {
-                    "objID": "Lab_3_----ObstacleManager----_5",
+                    "objID": "Lab_3_ObstacleManager_7",
                     "show": true
                 }
             ],
             "sceneName": "Lab_3"
+        },
+        {
+            "colors": [
+                {
+                    "objID": "Lab_4_----Environment----_2",
+                    "colorValue": "008F0DFF"
+                },
+                {
+                    "objID": "Lab_4_----Managers----_10",
+                    "colorValue": "E60C0CFF"
+                },
+                {
+                    "objID": "Lab_4_----UI----_13",
+                    "colorValue": "00BEB9FF"
+                }
+            ],
+            "styles": [
+                {
+                    "objID": "Lab_4_----Environment----_2",
+                    "styleType": 1
+                },
+                {
+                    "objID": "Lab_4_----Managers----_10",
+                    "styleType": 1
+                },
+                {
+                    "objID": "Lab_4_----UI----_13",
+                    "styleType": 1
+                },
+                {
+                    "objID": "Lab_4_RespawnPoint_5",
+                    "styleType": 1
+                },
+                {
+                    "objID": "Lab_4_TargetPoint _6",
+                    "styleType": 1
+                }
+            ],
+            "showComponents": [],
+            "sceneName": "Lab_4"
         }
     ]
 }
