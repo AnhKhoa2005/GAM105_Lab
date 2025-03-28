@@ -4,7 +4,7 @@ using UnityEngine;
 public class PlayerController_Lab3 : MonoBehaviour
 {
     [SerializeField] private float speed;
-    [SerializeField] private Transform RespawnPoint;
+    [SerializeField] private Vector3 CheckPoint;
 
     Animator ani;
     bool isRespawning = false;
@@ -51,6 +51,11 @@ public class PlayerController_Lab3 : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
+
+        if (other.CompareTag("CheckPoint"))
+        {
+            CheckPoint = other.transform.position;
+        }
     }
 
     IEnumerator Respawn()
@@ -60,7 +65,7 @@ public class PlayerController_Lab3 : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
         yield return new WaitForSeconds(1.5f);
 
-        this.transform.position = RespawnPoint.position;
+        this.transform.position = CheckPoint;
         yield return new WaitForSeconds(0.1f);
 
         ani.CrossFade("Player_Lab3", 0);

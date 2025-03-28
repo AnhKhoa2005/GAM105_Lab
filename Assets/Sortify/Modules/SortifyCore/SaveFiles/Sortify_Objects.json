@@ -119,12 +119,8 @@
                     "colorValue": "008F0DFF"
                 },
                 {
-                    "objID": "Lab_4_----Managers----_10",
-                    "colorValue": "E60C0CFF"
-                },
-                {
-                    "objID": "Lab_4_----UI----_13",
-                    "colorValue": "00BEB9FF"
+                    "objID": "Lab_4_----Managers----_7",
+                    "colorValue": "B40000FF"
                 }
             ],
             "styles": [
@@ -133,19 +129,7 @@
                     "styleType": 1
                 },
                 {
-                    "objID": "Lab_4_----Managers----_10",
-                    "styleType": 1
-                },
-                {
-                    "objID": "Lab_4_----UI----_13",
-                    "styleType": 1
-                },
-                {
-                    "objID": "Lab_4_RespawnPoint_5",
-                    "styleType": 1
-                },
-                {
-                    "objID": "Lab_4_TargetPoint _6",
+                    "objID": "Lab_4_----Managers----_7",
                     "styleType": 1
                 }
             ],

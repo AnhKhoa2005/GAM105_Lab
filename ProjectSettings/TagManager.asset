@@ -17,6 +17,7 @@ TagManager:
   - Obstacle
   - TargetPoint
   - Coin
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
