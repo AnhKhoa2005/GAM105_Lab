@@ -1,0 +1,12 @@
+.unity-button {
+    font-size: 200px;
+    top: 0;
+    color: rgb(255, 0, 0);
+    -unity-text-outline-color: rgb(0, 0, 0);
+    -unity-text-outline-width: 10px;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+}
+
+.unity-button:hover {
+    font-size: 200px;
+}

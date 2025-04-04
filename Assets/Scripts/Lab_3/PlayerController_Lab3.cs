@@ -39,6 +39,7 @@ public class PlayerController_Lab3 : MonoBehaviour
     {
         if (other.CompareTag("Obstacle"))
         {
+            UIManager_Lab3.Ins.info.Death++;
             StartCoroutine(Respawn());
         }
 

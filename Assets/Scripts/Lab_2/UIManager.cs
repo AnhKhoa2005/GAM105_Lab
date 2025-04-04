@@ -1,11 +1,13 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private GameObject youWin;
     [SerializeField] private GameObject youLose;
+    [SerializeField] private Slider HPBar;
     public static UIManager instance;
 
     void Awake()
@@ -27,7 +29,7 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         scoreText.text = GameManager.instance.score + "/10";
-
+        HPBar.value = GameManager.instance.score;
         if (GameManager.instance.score == 10)
         {
             youWin.SetActive(true);
