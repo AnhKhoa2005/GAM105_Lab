@@ -27,6 +27,10 @@ public class UIController : MonoBehaviour
         level2Button.RegisterCallback<ClickEvent>(Level_2);
         Button level3Button = select.Q<Button>("Level_3");
         level3Button.RegisterCallback<ClickEvent>(Level_3);
+        Button level4Button = select.Q<Button>("Level_4");
+        level4Button.RegisterCallback<ClickEvent>(Level_4);
+        Button level5Button = select.Q<Button>("Level_5");
+        level5Button.RegisterCallback<ClickEvent>(Level_5);
     }
 
 
@@ -61,6 +65,16 @@ public class UIController : MonoBehaviour
     {
         SceneManager.LoadScene("Lab_3");
     }
+    void Level_4(ClickEvent evt)
+    {
+        SceneManager.LoadScene("Level_4");
+    }
+    void Level_5(ClickEvent evt)
+    {
+        SceneManager.LoadScene("Level_5");
+    }
+
+
     // Update is called once per frame
     void Update()
     {

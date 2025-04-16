@@ -26,7 +26,7 @@ public class UIManager_Lab3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        NumberLevel.text = info.NumberLevel.ToString() + "/3";
+        NumberLevel.text = info.NumberLevel.ToString() + "/5";
         Death.text = "Death: " + info.Death.ToString();
     }
 
